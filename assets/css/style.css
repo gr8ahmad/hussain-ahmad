@@ -417,3 +417,8 @@ button { font: inherit; cursor: pointer; }
 .project:hover .project__media img { transform: scale(1.03); }
 img.t-card__avatar { object-fit: cover; padding: 0; background: var(--dark-2); }
 .project__media img { object-fit: contain; object-position: center; padding: 6%; }
+
+/* Hero profile card: 20% smaller and centered in its column (desktop) */
+@media (min-width: 1081px) {
+  .hero .profile-card { zoom: .8; justify-self: center; width: 100%; max-width: 440px; }
+}
